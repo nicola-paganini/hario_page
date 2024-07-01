@@ -19,7 +19,13 @@
     display: flex;
     justify-content: center;
     padding: 1.5rem 0;
-    padding-left:1rem;
+    padding-left:1.5rem;
+}
+
+.hario_pic_con{
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hario_container{
