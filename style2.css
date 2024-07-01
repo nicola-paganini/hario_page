@@ -1,0 +1,152 @@
+*{
+    font-family: 'Inter',sans-serif;
+}
+
+#logo{
+    width: 50%;
+    display:inline-block;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hario{
+    width: 250px;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem 0;
+    padding-left:1rem;
+}
+
+.hario_container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding:2rem;
+}
+
+#nav_container{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+#logo_box{
+    width: 280px;
+    padding:10px 0;
+}
+
+.row{
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.heading{
+    font-weight: 700;
+    font-size:2.4rem;
+    text-align: center;
+}
+
+.img_container{
+    max-width: 300px;
+    height: 100%;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    margin: 1.5rem 0;
+}
+
+.card p{
+    padding:1rem;
+}
+
+.taste_container{
+    max-width:100px;
+}
+
+.icon{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:1rem 0;
+}
+
+.icon p{
+    overflow-wrap: break-word;
+}
+
+.recipe_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:1rem;
+}
+.bold_line{
+    font-weight:600;
+}
+
+.video_container{
+    padding:1rem 0;
+}
+
+.icon_con{
+    width: 90px;
+}
+
+.card_container2{
+    display:flex;
+    justify-content: space-between;
+}
+
+.center_text{
+    text-align: center;
+    margin:0;
+}
+
+.brew_con{
+    min-height:200px;
+}
+
+.brew_card{
+    width:230px;
+    height:200px;
+    margin:1rem;
+}
+
+.card_container3{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.social_con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social_icons{
+    padding:1rem;
+}
+
+#coffee_lab{
+    font-weight: 600;
+    font-size:2rem;
+}
+
+#nicole_koh{
+    font-style: italic;
+}
+
+.footer{
+    background-color: #EEEEEE;
+}
