@@ -91,9 +91,6 @@
     height: 100%;
 }
 
-.img{
-    max-height: 160px;
-}
 
 .card{
     display: flex;
@@ -127,6 +124,10 @@
 
 .icon p{
     overflow-wrap: break-word;
+}
+
+.profile_text{
+    text-align: justify;
 }
 
 .recipe_text{
