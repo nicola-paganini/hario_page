@@ -194,7 +194,19 @@
     padding:1rem;
 }
 
-.fa-brands:hover{
+.fa-github{
+    color: rgb(49, 49, 49);
+}
+
+.fa-github:hover{
+    color: black;
+}
+
+.fa-linkedin{
+    color:rgb(49, 49, 49);
+}
+
+.fa-linkedin:hover{
     color: black;
 }
 

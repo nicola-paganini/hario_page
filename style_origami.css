@@ -91,10 +91,6 @@
     height: 100%;
 }
 
-.img{
-    max-height: 160px;
-}
-
 .card{
     display: flex;
     align-items: center;
@@ -197,7 +193,19 @@
     padding:1rem;
 }
 
-.fa-brands:hover{
+.fa-github{
+    color: rgb(49, 49, 49);
+}
+
+.fa-github:hover{
+    color: black;
+}
+
+.fa-linkedin{
+    color:rgb(49, 49, 49);
+}
+
+.fa-linkedin:hover{
     color: black;
 }
 
