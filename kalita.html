@@ -25,7 +25,7 @@
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <div class="collapse navbar-collapse" id="nav_items">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="kalita.html">Kalita</a>
@@ -48,13 +48,13 @@
     <div class="container-fluid">
         <div class="col hario_container">
             <div class="img_container hario_pic_con">
-                <img id="origami" class="img-fluid" src="resources/tusbame_trans.png" alt="origami">
+                <img id="hario" class="img-fluid" src="resources/tusbame_trans.png" alt="kalita">
             </div>
-            <div>  
+            <div class="hario_text">  
                 <div class="row">
                     <h1 id="hario_title" class="heading">KALITA</h1>
                 </div>
-                <div class="row">
+                <div class="summary_text row">
                     <p>Handmade by qualified craftsmen of Tsubame-shi, a well-known district in Niigata prefecture for its metalworking craftsmen and their techniques.</p>
                     <p>It is designed with Kalita's traditional three-hole structure with a flat bottom allows for deep flavour extraction, perfect for lighter roast profiles.</p>
                 </div>
@@ -63,36 +63,44 @@
     </div>
 
     <!-- History -->
-    <div id="history" class="container-fluid">
+    <div class="container-fluid">
         <div class="row hario_container hidden">
             <h1 class="heading">HISTORY</h1>
             <div class="card_container">
-                <div class="card hidden">
+                <div class="card hidden history_card">
                     <div class="img_container">
                         <img class="img-fluid rounded-top img" src="resources/kalita1.png" alt="history of hario as a glassware company">
                     </div>
-                    <p>Kalita was found in 1958 in Nihonbashi, Tokyo. They produce quality drip-based-coffee-making equipments and is well known for their paper filters, drippers, and grinders. Now, Kalita has become a household name amoung coffee enthusiasts. </p>
+                    <div class="card_text">
+                        <p>Kalita was found in 1958 in Nihonbashi, Tokyo. They produce quality drip-based-coffee-making equipments and is well known for their paper filters, drippers, and grinders. Now, Kalita has become a household name amoung coffee enthusiasts. </p>
+                    </div>
                 </div>
 
-                <div class="card rounded-top hidden">
+                <div class="card rounded-top hidden history_card">
                     <div class="img_container">
                         <img class="img-fluid rounded-top img" src="resources/kalita2.png" alt="hario v60 used during a coffee competition">
                     </div>
-                    <p>The flat-bottom design and three-hole structure constricts the flow of water, minimizing any water channeling to extract a full bodied cup.</p>
+                    <div class="card_text">
+                        <p>The flat-bottom design and three-hole structure constricts the flow of water, minimizing any water channeling to extract a full bodied cup.</p>
+                    </div>
                 </div>
 
-                <div class="card hidden">
+                <div class="card hidden history_card">
                     <div class="img_container">
                         <img class="img-fluid rounded-top img" src="resources/kalita3.png" alt="hario v60 used during a coffee competition">
                     </div>
-                    <p>The Wave filter paper features 20 grooves as it sits flat on the bottom of the dripper. This way the water comes in contact mostly with the coffee, called the Wave Zone, allowing for more balanced flavour extraction.</p>
+                    <div class="card_text">
+                        <p>The Wave filter paper features 20 grooves as it sits flat on the bottom of the dripper. This way the water comes in contact mostly with the coffee, called the Wave Zone, allowing for more balanced flavour extraction.</p>
+                    </div>
                 </div>
 
-                <div class="card hidden">
+                <div class="card hidden history_card">
                     <div class="img_container">
                         <img class="img-fluid rounded-top" src="resources/kalita5.png" alt="hario v60 used during a coffee competition">
                     </div>
-                    <p>Easy to use and reliable, the Kalita Wave is perfect for beginners and barista champions alike, being chosen as a popular dripper in the World Brewers Cup Championship.</p>
+                    <div class="card_text">
+                        <p>Easy to use and reliable, the Kalita Wave is perfect for beginners and barista champions alike, being chosen as a popular dripper in the World Brewers Cup Championship.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -100,17 +108,19 @@
 
     <!-- Profile -->
     <div class="container-fluid hidden">
-        <div class="row hario_container">
+        <div class="profile row hario_container">
             <h1 class="heading">PROFILE</h1>
             <div class="icon col">
                 <div class="taste_container">
-                    <img class="img-fluid" src="resources/profile1.png" alt="taste notes">
+                    <img class="img-fluid profile_icon" src="resources/profile1.png" alt="taste notes">
                 </div>
-                <h3>Taste Notes</h3>
-                <p class="profile_text">Extracts a sweet and rich flavour profile, perfect for picking up subtle notes of lighter roasts.</p>
+                <div class="profile_text">
+                    <h3>Taste Notes</h3>
+                    <p class="profile_text">Extracts a sweet and rich flavour profile, perfect for picking up subtle notes of lighter roasts.</p>
+                </div>
             </div>
 
-            <div class="icon col slide-right">
+            <div class="icon col special_icon">
                 <div class="taste_container">
                     <img class="img-fluid" src="resources/profile2.png" alt="material">
                 </div>
@@ -121,30 +131,34 @@
 
             <div class="icon col">
                 <div class="taste_container">
-                    <img class="img-fluid" src="resources/profile5.png" alt="material">
+                    <img class="img-fluid" src="resources/profile5.png" alt="paper type">
                 </div>
-                <h3>Paper Type</h3>
-                <p class="profile_text">Fits Kalita Wave #155 & #185 filters</p>
+                <div class="profile_text2">
+                    <h3>Paper Type</h3>
+                    <p class="profile_text">Fits Kalita Wave #155 & #185 filters</p>
+                </div>
             </div>
         </div>
     </div>
 
     <!-- Recipe -->
     <div class="container-fluid">
-        <div class="row hario_container hidden">
+        <div class="recipe row hario_container hidden">
             <h1 class="heading">RECIPE</h1>
-            <div class="video_container">
-                <p>Watch this step-by-step tutorial from Copenhagen Roastery, April!</p>
-                <iframe src="https://www.youtube.com/embed/vcrTgESWmTw?si=StdbAxHgDjH0ri6B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-            <div id="recipe_text">
-                <p class="bold_line">Coffee: 15g <br>Water: 250g (88-90℃)</p>
-                <ol>
-                    <li>During the first 30 seconds, pour 40g of water.</li>
-                    <li>During the next 30 seconds, slowly pour 130g of water.</li>
-                    <li>Finish pouring 250g of water before the timer hits 80 seconds.</li>
-                    <li>Take the dripper off from the server.</li>
-                </ol>
+            <p id="recipe_sub">Watch this step-by-step tutorial from <span style="font-weight:700;">Japanese Roastery, Kurasu!</span></p>
+            <div class="video_and_recipe">
+                <div class="video_container">
+                    <iframe class="video" src="https://www.youtube.com/embed/APWXuSMW5Nk?si=bcyJKn8vjRufyBmC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div id="recipe_text">
+                    <p class="bold_line">Coffee: 14g <br>Water: 200g (92℃)</p>
+                    <ol>
+                        <li>During the first 30 seconds, pour 30g of water.</li>
+                        <li>During the next 30 seconds, slowly pour up till 60g of water.</li>
+                        <li>Finish pouring unitl 200g of water with a center pour, finishing at the 2 min mark.</li>
+                        <li>Take the dripper off from the server.</li>
+                    </ol>
+                </div>
             </div>
         </div>
     </div>
@@ -205,19 +219,24 @@
 
     <!-- Footer, credits, social media -->
     <footer class="container-fluid footer">
-        <div class="row hario_container">
+        <div class="footer_container row hario_container">
             <div class="footer_text">
                 <h3 id="coffee_lab">Coffee Lab Project</h3>
                 <p id="nicole_koh">By: Nicole Koh</p>
                 <p>Dedicated for coffee enthusiasts and beginners who love to explore the world of coffee.</p>
+                <p>To learn more about the project, please read the GitHub Repository page <a href="https://github.com/nicola-paganini/hario_page" target="_blank">here</a>. 
+                    Information presented are purely for educational purposes. 
+                    I do not receive compensation for any of the affiliated links presented in this page.
+                    Products listed may be sold out by their respective sellers upon viewing.
+                </p>
                 <h3>See more of my work here!</h3>
             </div>
             <div class="social_con">
                 <div class="social_icons">
-                    <a href="https://github.com/nicola-paganini?tab=repositories"><i class="fa-brands fa-github fa-4x"></i></a>
+                    <a href="https://github.com/nicola-paganini?tab=repositories" target="_blank"><i class="fa-brands fa-github fa-4x"></i></a>
                 </div>
                 <div class="social_icons">
-                    <a href="https://www.linkedin.com/in/nicole-koh-sze-kyi-78691b220/"><i class="fa-brands fa-linkedin fa-4x"></i></a>
+                    <a href="https://www.linkedin.com/in/nicole-koh-sze-kyi-78691b220/" target="_blank"><i class="fa-brands fa-linkedin fa-4x"></i></a>
                 </div>
             </div>
         </div>

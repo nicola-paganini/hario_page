@@ -25,7 +25,7 @@
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <div class="collapse navbar-collapse" id="nav_items">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="index.html">Hario</a>
@@ -50,11 +50,11 @@
             <div class="img_container hario_pic_con">
                 <img id="hario" class="img-fluid" src="resources/hario_main.png" alt="hario V60">
             </div>
-            <div>  
+            <div class="hario_text">  
                 <div class="row">
                     <h1 id="hario_title" class="heading">HARIO</h1>
                 </div>
-                <div class="row">
+                <div class="summary_text row">
                     <p>The iconic Hario V60, a popular choice among beginners and experienced baristas for it's easy to use design and wide choices of material construction.</p>
                     <p>It features a unique spiral design and a centre large hole to allows for fast and even coffee extraction for busy mornings.</p>
                 </div>
@@ -63,36 +63,44 @@
     </div>
 
     <!-- History -->
-    <div id="history" class="container-fluid">
+    <div class="container-fluid">
         <div class="row hario_container hidden">
             <h1 class="heading">HISTORY</h1>
             <div class="card_container">
-                <div class="card hidden">
+                <div class="card hidden history_card">
                     <div class="img_container">
-                        <img class="img-fluid rounded-top" src="resources/history_hario.jpg" alt="history of hario as a glassware company">
+                        <img class="img-fluid rounded-top" src="resources/hario1.png" alt="history of hario as a glassware company">
                     </div>
-                    <p>Established in 1921, Hario started out as a manufacturer for scientific glassware and beakers. It wasn't until 1980 that Hario would innovate the very first connical shape dripper that challenged the prevaling use of traditional cloth drippers.</p>
+                    <div class="card_text">
+                        <p>Established in 1921, Hario started out as a manufacturer for scientific glassware and beakers. It wasn't until 1980 that Hario would innovate the very first connical shape dripper that challenged the prevaling use of traditional cloth drippers.</p>
+                    </div>
                 </div>
 
-                <div class="card rounded-top hidden">
+                <div class="card rounded-top hidden history_card">
                     <div class="img_container">
-                        <img class="img-fluid rounded-top" src="resources/hario3.jpg" alt="hario v60 used during a coffee competition">
+                        <img class="img-fluid rounded-top" src="resources/hario2.png" alt="hario v60 used during a coffee competition">
                     </div>
-                    <p>By 2005, the Hario V60 dripper started to gain popular momentum along with the "third-wave coffee culture", emphasising a more experimental and customised coffee drinking experience.</p>
+                    <div class="card_text">
+                        <p>By 2005, the Hario V60 dripper started to gain popular momentum along with the "third-wave coffee culture", emphasising a more experimental and customised coffee drinking experience.</p>
+                    </div>
                 </div>
 
-                <div class="card hidden">
+                <div class="card hidden history_card">
                     <div class="img_container">
-                        <img class="img-fluid rounded-top" src="resources/hario_rib.jpg" alt="hario v60 used during a coffee competition">
+                        <img class="img-fluid rounded-top" src="resources/hario3.png" alt="hario v60 close up ribs">
                     </div>
-                    <p>The dripper's unique spiral rib pattern creates air passages that allows more precise control over the flow rate of water, resulting in a clean and smoother of cup of coffee in contrast to traditional methods.</p>
+                    <div class="card_text">
+                        <p>The dripper's unique spiral rib pattern creates air passages that allows more precise control over the flow rate of water, resulting in a clean and smoother of cup of coffee in contrast to traditional methods.</p>
+                    </div>
                 </div>
 
-                <div class="card hidden">
+                <div class="card hidden history_card">
                     <div class="img_container">
-                        <img class="img-fluid rounded-top" src="resources/hario2.jpg" alt="hario v60 used during a coffee competition">
+                        <img class="img-fluid rounded-top" src="resources/hario4.png" alt="hario v60 used during a coffee competition">
                     </div>
-                    <p>Additionally, The V60 dripper popularised the art of Japanese coffeee brewing to western countries, which mainly relied on heavy espresso machines, moka pots, and french presses as their default coffee brewing method.</p>
+                    <div class="card_text">
+                        <p>Additionally, The V60 dripper popularised the art of Japanese coffeee brewing to western countries, which mainly relied on heavy espresso machines, moka pots, and french presses as their default coffee brewing method.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -100,17 +108,19 @@
 
     <!-- Profile -->
     <div class="container-fluid hidden">
-        <div class="row hario_container">
+        <div class="profile row hario_container">
             <h1 class="heading">PROFILE</h1>
             <div class="icon col">
                 <div class="taste_container">
-                    <img class="img-fluid" src="resources/profile1.png" alt="taste notes">
+                    <img class="img-fluid profile_icon" src="resources/profile1.png" alt="taste notes">
                 </div>
-                <h3>Taste Notes</h3>
-                <p>Smooth, clean texture that highlights the acidity of lighter roasts.</p>
+                <div class="profile_text">
+                    <h3>Taste Notes</h3>
+                    <p>Smooth, clean texture that highlights the acidity of lighter roasts.</p>
+                </div>
             </div>
 
-            <div class="icon col slide-right">
+            <div class="icon col special_icon">
                 <div class="taste_container">
                     <img class="img-fluid" src="resources/profile2.png" alt="material">
                 </div>
@@ -121,34 +131,38 @@
 
             <div class="icon col">
                 <div class="taste_container">
-                    <img class="img-fluid" src="resources/profile4.png" alt="material">
+                    <img class="img-fluid profile_icon" src="resources/profile4.png" alt="paper type">
                 </div>
-                <h3>Paper Type</h3>
-                <p>Fits only Cone-shape filters</p>
+                <div class="profile_text2">
+                    <h3>Paper Type</h3>
+                    <p>Fits only Cone-shape filters</p>
+                </div>
             </div>
         </div>
     </div>
 
     <!-- Recipe -->
     <div class="container-fluid">
-        <div class="row hario_container hidden">
+        <div class="recipe row hario_container hidden">
             <h1 class="heading">RECIPE</h1>
-            <div class="video_container">
-                <p>Watch this step-by-step tutorial from reowned coffee expert, James Hoffman!</p>
-                <iframe src="https://www.youtube.com/embed/AI4ynXzkSQo?si=X7OWQPp2B66OgC33" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-            <div id="recipe_text">
-                <p class="bold_line">Coffee: 15g <br>Water: 250g (88-90℃)</p>
-                <ol>
-                    <li>Rinse paper in V60 and pre heat it.</li>
-                    <li>Pour in coffee, make a well with your finger in the coffee bed.</li>
-                    <li>Start timer and gently pour 45g of water to bloom.</li>
-                    <li>Swirl and wait for 30-45 secs.</li>
-                    <li>During the next 30 seconds, slowly pour 120g of water.</li>
-                    <li>Finish pouring 250g of water before the timer hits 1 min 45 secs.</li>
-                    <li>Gently stir with a spoon in a circular motion once or twice.</li>
-                    <li>Take the dripper off from the server and enjoy!</li>
-                </ol>
+            <p id="recipe_sub">Watch this step-by-step tutorial from reowned coffee expert, <span style="font-weight:700;">James Hoffman!</span></p>
+            <div class="video_and_recipe">
+                <div class="video_container">
+                    <iframe class="video" src="https://www.youtube.com/embed/AI4ynXzkSQo?si=X7OWQPp2B66OgC33" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="recipe_text">
+                    <p class="bold_line">Coffee: 15g <br>Water: 250g (88-90℃)</p>
+                    <ol>
+                        <li>Rinse paper in V60 and pre heat it.</li>
+                        <li>Pour in coffee, make a well with your finger in the coffee bed.</li>
+                        <li>Start timer and gently pour 45g of water to bloom.</li>
+                        <li>Swirl and wait for 30-45 secs.</li>
+                        <li>During the next 30 seconds, slowly pour 120g of water.</li>
+                        <li>Finish pouring 250g of water before the timer hits 1 min 45 secs.</li>
+                        <li>Gently stir with a spoon in a circular motion once or twice.</li>
+                        <li>Take the dripper off from the server and enjoy!</li>
+                    </ol>
+                </div>
             </div>
         </div>
     </div>
@@ -209,19 +223,24 @@
 
     <!-- Footer, credits, social media -->
     <footer class="container-fluid footer">
-        <div class="row hario_container">
+        <div class="footer_container row hario_container">
             <div class="footer_text">
                 <h3 id="coffee_lab">Coffee Lab Project</h3>
                 <p id="nicole_koh">By: Nicole Koh</p>
                 <p>Dedicated for coffee enthusiasts and beginners who love to explore the world of coffee.</p>
+                <p>To learn more about the project, please read the GitHub Repository page <a href="https://github.com/nicola-paganini/hario_page" target="_blank">here</a>. 
+                    Information presented are purely for educational purposes. 
+                    I do not receive compensation for any of the affiliated links presented in this page.
+                    Products listed may be sold out by their respective sellers upon viewing.
+                </p>
                 <h3>See more of my work here!</h3>
             </div>
             <div class="social_con">
                 <div class="social_icons">
-                    <a href="https://github.com/nicola-paganini?tab=repositories"><i class="fa-brands fa-github fa-4x"></i></a>
+                    <a href="https://github.com/nicola-paganini?tab=repositories" target="_blank"><i class="fa-brands fa-github fa-4x"></i></a>
                 </div>
                 <div class="social_icons">
-                    <a href="https://www.linkedin.com/in/nicole-koh-sze-kyi-78691b220/"><i class="fa-brands fa-linkedin fa-4x"></i></a>
+                    <a href="https://www.linkedin.com/in/nicole-koh-sze-kyi-78691b220/" target="_blank"><i class="fa-brands fa-linkedin fa-4x"></i></a>
                 </div>
             </div>
         </div>

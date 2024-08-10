@@ -25,7 +25,7 @@
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <div class="collapse navbar-collapse" id="nav_items">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="cafec.html">Cafec</a>
@@ -48,13 +48,13 @@
     <div class="container-fluid">
         <div class="col hario_container">
             <div class="img_container hario_pic_con">
-                <img id="origami" class="img-fluid" src="resources/cafec_trans.png" alt="cafec">
+                <img id="hario" class="img-fluid" src="resources/cafec_trans.png" alt="cafec">
             </div>
-            <div>  
+            <div class="hario_text">  
                 <div class="row">
                     <h1 id="hario_title" class="heading">CAFEC</h1>
                 </div>
-                <div class="row">
+                <div class="summary_text row">
                     <p>The Cafec Flower Dripper captures the eye of any barista with its elegant flower-concaved grooves.</p>
                     <p>Paired with Cafec's premium Abaca+ paper filter technology, this dripper makes for the ultimate customisable experience based on the roast of your beans.</p>
                 </div>
@@ -63,36 +63,42 @@
     </div>
 
     <!-- History -->
-    <div id="history" class="container-fluid">
+    <div class="container-fluid">
         <div class="row hario_container hidden">
             <h1 class="heading">HISTORY</h1>
             <div class="card_container">
-                <div class="card hidden">
+                <div class="card hidden history_card">
                     <div class="img_container">
                         <img class="img-fluid rounded-top img" src="resources/cafec1.png" alt="CEO Shigeji Nakatsuka showing paper filters">
                     </div>
-                    <p>Founded in 1973, Cafec pioneers in Paper Filter Manufacturing. It was the first company who developed the cone-shaped paper filter in the world. Today, its Abaca+ paper filters continues to innovate leading paper filter technology.</p>
+                    <div class="card_text">
+                        <p>Founded in 1973, Cafec pioneers in Paper Filter Manufacturing. It was the first company who developed the cone-shaped paper filter in the world. Today, its <span style="font-weight:700;">Abaca+ paper filters</span> continues to innovate leading paper filter technology.</p>
+                    </div>
                 </div>
 
-                <div class="card rounded-top hidden">
+                <div class="card rounded-top hidden history_card">
                     <div class="img_container">
                         <img class="img-fluid rounded-top img" src="resources/cafec2.png" alt="Flower ribs of the cafec dripper">
                     </div>
-                    <p>Its elegant flower ribs are designed to maintain consistent air circulation and prevent the paper filter from sticking against the dripper, allowing for a clear and deep flavour extraction.</p>
+                    <div class="card_text">
+                        <p>Its elegant flower ribs are designed to maintain consistent air circulation and prevent the paper filter from sticking against the dripper, allowing for a clear and deep flavour extraction.</p>
+                    </div>
                 </div>
 
-                <div class="card hidden">
+                <div class="card hidden history_card">
                     <div class="img_container">
                         <img class="img-fluid rounded-top img" src="resources/cafec3.png" alt="Tritan resin used to make Cafec dripper">
                     </div>
-                    <p>Made out of Tritan resin, it is heat-resistance and strong enough to withstand accidental drops, making it suitable for outdoor camping uses. Additionally, it does not contain any BPA and meets EU regulation standards for sustainable product development.</p>
+                    <p>Made out of <span style="font-weight:700;">Tritan resin</span>, it is heat-resistance and strong enough to withstand accidental drops, making it suitable for outdoor camping uses. Additionally, it does not contain any BPA and meets EU regulation standards for sustainable product development.</p>
                 </div>
  
-                <div class="card hidden">
+                <div class="card hidden history_card">
                     <div class="img_container">
-                        <img class="img-fluid rounded-top" src="resources/cafec4.png" alt="hario v60 used during a coffee competition">
+                        <img class="img-fluid rounded-top" src="resources/cafec4.png" alt="Close up shot of Cafec dripper">
                     </div>
-                    <p>"Happiest smile by coffee!", Cafec aims to simplify and make delicious coffee brewing accessible at home with family and friends.</p>
+                    <div class="card_text">
+                        <p>"Happiest smile by coffee!", Cafec aims to simplify and make delicious coffee brewing accessible at home with family and friends.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -100,52 +106,60 @@
 
     <!-- Profile -->
     <div class="container-fluid">
-        <div class="row hario_container hidden">
+        <div class="profile row hario_container hidden">
             <h1 class="heading">PROFILE</h1>
             <div class="icon col">
                 <div class="taste_container">
-                    <img class="img-fluid" src="resources/profile1.png" alt="taste notes">
+                    <img class="img-fluid profile_icon" src="resources/profile1.png" alt="taste notes">
                 </div>
-                <h3>Taste Notes</h3>
-                <p class="profile_text">Extracts a rich and sweet flavour profile, perfect for all types of roasts.</p>
-            </div>
-
-            <div class="icon col slide-right">
-                <div class="taste_container">
-                    <img class="img-fluid" src="resources/profile2.png" alt="material">
+                <div class="profile_text2">
+                    <h3>Taste Notes</h3>
+                    <p class="profile_text">Extracts a rich and sweet flavour profile, perfect for all types of roasts.</p>
                 </div>
-                <h3>Material</h3>
-                <p>Tritan, Ceramic</p>
-                <p class="profile_text">Colours vary according to material type <a href="https://cafec-jp.com/products/dripper/">(see here for colour options).</a></p>
             </div>
 
             <div class="icon col">
                 <div class="taste_container">
-                    <img class="img-fluid" src="resources/profile4.png" alt="material">
+                    <img class="img-fluid" src="resources/profile2.png" alt="material">
                 </div>
-                <h3>Paper Type</h3>
-                <p class="profile_text">Fits Cone-shaped filters.</p>
-                <p class="profile_text"><a href="https://cafec-jp.com/products/filterpaper/">Cafec Abaca+ paper filters</a> come in Light Roast (T-92), Medium-Dark Roast (T-90), and Dark Roast (T-83) to suit your roast preferences.</p>
+                <div class="profile_text">
+                    <h3>Material</h3>
+                    <p>Tritan, Ceramic</p>
+                    <p class="profile_text">Colours vary according to material type <a href="https://cafec-jp.com/products/dripper/">(see here for colour options).</a></p>
+                </div>
+            </div>
+
+            <div class="icon col">
+                <div class="taste_container">
+                     <img class="img-fluid profile_icon" src="resources/profile4.png" alt="paper type">
+                </div>
+                <div class="profile_text">
+                    <h3>Paper Type</h3>
+                    <p>Fits Cone-shaped filters.</p>
+                    <p class="profile_text"><a href="https://cafec-jp.com/products/filterpaper/">Cafec Abaca+ paper filters</a> come in Light Roast (T-92), Medium-Dark Roast (T-90), and Dark Roast (T-83) to suit your roast preferences.</p>
+                </div>
             </div>
         </div>
     </div>
 
     <!-- Recipe -->
     <div class="container-fluid">
-        <div class="row hario_container hidden">
+        <div class="recipe row hario_container hidden">
             <h1 class="heading">RECIPE</h1>
-            <div class="video_container">
-                <p>Watch this step-by-step tutorial from Copenhagen Roastery, April!</p>
-                <iframe src="https://www.youtube.com/embed/tSt87-C60pA?si=twXkzyD9fnbnbMEh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-            <div id="recipe_text">
-                <p class="bold_line">Coffee: 15g <br>Water: 250g (88-90℃)</p>
-                <ol>
-                    <li>During the first 30 seconds, pour 40g of water.</li>
-                    <li>During the next 30 seconds, slowly pour 130g of water.</li>
-                    <li>Finish pouring 250g of water before the timer hits 80 seconds.</li>
-                    <li>Take the dripper off from the server.</li>
-                </ol>
+            <p id="recipe_sub">Watch this step-by-step tutorial from <span style="font-weight:700;">Copenhagen Roastery, April!</span></p>
+            <div class="video_and_recipe">
+                <div class="video_container">
+                    <iframe class="video" src="https://www.youtube.com/embed/tSt87-C60pA?si=twXkzyD9fnbnbMEh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="recipe_text">
+                    <p class="bold_line">Coffee: 13g <br>Water: 200g (90℃)</p>
+                    <ol>
+                        <li>During the first 10 seconds, pour 100g of water in a circular motion, followed by a centre pour.</li>
+                        <li>Let the coffee bloom for 30 seconds.</li>
+                        <li>At 40 secs, pour until 200g of water, repeating the circular motion, and finishing with a center pour.</li>
+                        <li>Gently move the dripper in a circular motion, and remove the dripper at 2 mins.</li>
+                    </ol>
+                </div>
             </div>
         </div>
     </div>
@@ -206,19 +220,24 @@
 
     <!-- Footer, credits, social media -->
     <footer class="container-fluid footer">
-        <div class="row hario_container">
+        <div class="footer_container row hario_container">
             <div class="footer_text">
                 <h3 id="coffee_lab">Coffee Lab Project</h3>
                 <p id="nicole_koh">By: Nicole Koh</p>
                 <p>Dedicated for coffee enthusiasts and beginners who love to explore the world of coffee.</p>
+                <p>To learn more about the project, please read the GitHub Repository page <a href="https://github.com/nicola-paganini/hario_page" target="_blank">here</a>. 
+                    Information presented are purely for educational purposes. 
+                    I do not receive compensation for any of the affiliated links presented in this page.
+                    Products listed may be sold out by their respective sellers upon viewing.
+                </p>
                 <h3>See more of my work here!</h3>
             </div>
             <div class="social_con">
                 <div class="social_icons">
-                    <a href="https://github.com/nicola-paganini?tab=repositories"><i class="fa-brands fa-github fa-4x"></i></a>
+                    <a href="https://github.com/nicola-paganini?tab=repositories" target="_blank"><i class="fa-brands fa-github fa-4x"></i></a>
                 </div>
                 <div class="social_icons">
-                    <a href="https://www.linkedin.com/in/nicole-koh-sze-kyi-78691b220/"><i class="fa-brands fa-linkedin fa-4x"></i></a>
+                    <a href="https://www.linkedin.com/in/nicole-koh-sze-kyi-78691b220/" target="_blank"><i class="fa-brands fa-linkedin fa-4x"></i></a>
                 </div>
             </div>
         </div>
