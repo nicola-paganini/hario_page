@@ -43,7 +43,7 @@ who sold official, authentic drippers in Malaysia as many counterfeit products w
 <p>Here is an early sketch that I drew of how the layout of the website would look like, including the sections of the page.</p>
 <p>After which, I started coding the HTML and CSS components in Visual Studio Code, before revising it with multiple updates on GitHub, adding JS animations and media queries for the desktop interface.</p>
 
-![IMG_8094](https://github.com/user-attachments/assets/88e85795-328d-405f-95c9-a1c813c92482)
+<img width="384" src="https://github.com/user-attachments/assets/88e85795-328d-405f-95c9-a1c813c92482">
 
 
 <h1>🧠 Things I Have Learnt</h1>
