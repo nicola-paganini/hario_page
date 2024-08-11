@@ -263,7 +263,7 @@
         font-size: 18px;
     }
 
-    #nav_items{
+    .nav_items{
         display: flex;
         max-width: fit-content;
     }
